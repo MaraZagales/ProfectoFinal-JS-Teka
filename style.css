@@ -1,0 +1,540 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*header*/
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav {
+  padding: 10px 15px;
+  box-shadow: 0px 0px 19px -5px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 19px -5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 19px -5px rgba(0, 0, 0, 1);
+  background-color: white;
+}
+
+.logo {
+  border-radius: 15%;
+}
+
+.titulo {
+  color: #000;
+  text-shadow: 1px 1px #e6d0a9;
+  letter-spacing: 2px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.botonCarrito {
+  background-color: #e6d0a9;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+}
+
+.botonCarrito:focus {
+  box-shadow: none;
+}
+
+.botonCarrito:hover {
+  box-shadow: 0px 0px 10px 1px #dfdacb;
+  -webkit-box-shadow: 0px 0px 10px 1px #dfdacb;
+}
+
+/*Efectos anime.js*/
+.animacion {
+  margin: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background-image: url(./multimedia/header.jpeg);
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #000;
+  background-color: rgba(224, 219, 204, 0.48);
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+/*Main*/
+
+.presentacion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #000;
+  letter-spacing: 2px;
+  padding: 5px;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.caracteristicas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.envios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transporte {
+  font-size: 30px;
+}
+
+.transporte:hover {
+  color: #e6d0a9;
+  font-size: 40px;
+}
+.porcentaje {
+  font-size: 30px;
+}
+
+.porcentaje:hover {
+  color: #e6d0a9;
+  font-size: 40px;
+}
+
+.negocio {
+  font-size: 30px;
+}
+
+.negocio:hover {
+  color: #e6d0a9;
+  font-size: 40px;
+}
+
+.descuento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showroom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+  padding: 7px;
+}
+
+.whatsapp:hover {
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.catalogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #000;
+  text-shadow: 1px 1px #e6d0a9;
+  letter-spacing: 2px;
+  padding: 5px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #000;
+  padding: 15px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 1px #dfdacb;
+  -webkit-box-shadow: 0px 0px 10px 1px #dfdacb;
+}
+
+.img {
+  width: 70%;
+  box-shadow: 0px 0px 10px 1px #000;
+}
+
+.btn-card {
+  background-color: #e6d0a9;
+  font-weight: bold;
+  font-size: 10px;
+  outline: none;
+}
+
+.btn-card:focus {
+  box-shadow: none;
+}
+
+.btn-card:hover {
+  box-shadow: 0px 0px 10px 1px #dfdacb;
+  -webkit-box-shadow: 0px 0px 10px 1px #dfdacb;
+}
+
+/*footer*/
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.contactoTit {
+  color: #000;
+  text-shadow: 1px 1px #e6d0a9;
+  letter-spacing: 2px;
+  padding: 5px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.contacto p {
+  letter-spacing: 2px;
+  padding: 5px;
+  font-weight: bold;
+}
+.contactoShowr {
+  font-size: 20px;
+  margin: 10px;
+}
+.contactoShowr:hover {
+  color: #e6d0a9;
+  font-size: 30px;
+}
+
+.contactoTel {
+  font-size: 20px;
+  margin: 10px;
+}
+.contactoTel:hover {
+  color: #e6d0a9;
+  font-size: 30px;
+}
+
+.contactoHora {
+  font-size: 20px;
+  margin: 10px;
+}
+.contactoHora:hover {
+  color: #e6d0a9;
+  font-size: 30px;
+}
+
+.instagram {
+  margin: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 50px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.instagram:hover {
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0px 0px 10px 1px #dfdacb;
+  -webkit-box-shadow: 0px 0px 10px 1px #dfdacb;
+}
+
+.facebook {
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  background-color: #3b5998;
+  vertical-align: middle;
+}
+
+.facebook:hover {
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0px 0px 10px 1px #dfdacb;
+  -webkit-box-shadow: 0px 0px 10px 1px #dfdacb;
+}
+
+.wpp {
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  background-color: #25d366;
+  vertical-align: middle;
+}
+
+.wpp:hover {
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0px 0px 10px 1px #dfdacb;
+  -webkit-box-shadow: 0px 0px 10px 1px #dfdacb;
+}
+
+.mapa {
+  width: 100%;
+  height: 30vh;
+  margin-top: 15px;
+}
+
+/*carrito*/
+
+#cart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-carrito {
+  border: 2px solid #000;
+  padding: 5px;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 38%;
+}
+
+.img-carrito {
+  width: 40%;
+  height: 25%;
+  box-shadow: 0px 0px 10px 1px #000;
+}
+
+.card-title {
+  font-size: 15px;
+}
+
+.card-carrito p {
+  font-size: 10px;
+}
+.card-carrito .btn-card {
+  font-size: 8px;
+}
+
+.carritoCompras {
+  color: #000;
+  text-shadow: 1px 1px #e6d0a9;
+  letter-spacing: 2px;
+  padding: 5px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#clear {
+  background-color: #e6d0a9;
+  font-weight: bold;
+  font-size: 10px;
+  outline: none;
+  margin: 10px;
+}
+
+#clear:focus {
+  box-shadow: none;
+}
+
+#clear:hover {
+  box-shadow: 0px 0px 10px 1px #dfdacb;
+  -webkit-box-shadow: 0px 0px 10px 1px #dfdacb;
+}
+
+#comprar {
+  background-color: #e6d0a9;
+  font-weight: bold;
+  font-size: 10px;
+  outline: none;
+  margin: 10px;
+}
+
+#comprar:focus {
+  box-shadow: none;
+}
+
+#comprar:hover {
+  box-shadow: 0px 0px 10px 1px #dfdacb;
+  -webkit-box-shadow: 0px 0px 10px 1px #dfdacb;
+}
+
+#total{
+  color: #000;
+  text-shadow: 1px 1px #e6d0a9;
+  letter-spacing: 2px;
+  padding: 5px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.sweetAlert{
+background-color: #e6d0a9;
+color: #000;
+font-size: 10px;
+width: 20%;
+font-weight: bold;
+
+}
+
+@media (max-width: 576px) {
+header{
+  margin: 0 auto;
+}
+
+  .titulo {
+font-size: 20px;
+}
+
+body header .logo{
+  display: none;
+}
+
+.animacion{
+  height: 200px;
+  background-position: left;
+  
+
+}
+.animacion .ml5{
+  font-size: 30px;
+}
+.presentacion{
+  font-size: 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.caracteristicas{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 5px;
+  padding: 2px;
+  align-items: center;
+}
+ .envios h3{
+  font-size: 15px;
+}
+ .showroom h3{
+  font-size: 15px;
+}
+ .descuento h3{
+  font-size: 15px;
+}
+.card{
+  width: 50%;
+}
+.catalogo{
+  margin: 0 auto;
+}
+.contacto{
+  margin: 0 auto;
+}
+
+footer{
+  margin: 0;
+}
+}

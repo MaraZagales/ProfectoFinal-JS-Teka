@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mesa",
+        "imagen": "./multimedia/producto1.jpeg",
+        "precio": 35000
+    },
+    {
+        "id": 2,
+        "nombre": "Mesa Ratona",
+        "imagen": "./multimedia/producto2.jpeg",
+        "precio": 9500
+    },
+    {
+        "id": 3,
+        "nombre": "Biblioteca",
+        "imagen": "./multimedia/producto3.jpeg",
+        "precio": 15000
+    },
+    {
+        "id": 4,
+        "nombre": "Sofá",
+        "imagen": "./multimedia/producto4.jpeg",
+        "precio": 25000
+    },
+    {
+        "id": 5,
+        "nombre": "Silla",
+        "imagen": "./multimedia/producto5.jpeg",
+        "precio": 5000
+    },
+    {
+        "id": 6,
+        "nombre": "Rack Tv",
+        "imagen":"./multimedia/producto6.jpeg",
+        "precio": 20000
+    }
+    
+]
+
+
+    
