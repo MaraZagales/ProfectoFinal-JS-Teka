@@ -537,4 +537,7 @@ body header .logo{
 footer{
   margin: 0;
 }
+.sweetAlert{
+  width: 50%;
+}
 }
