@@ -1,4 +1,4 @@
-Proyecto Final del curso de JS de CoderHouse
+Proyecto Final del curso de Javascript de CoderHouse
 
 Se trata de un carrito de compras correspondiente a un negocio real, @teka.livings
 
